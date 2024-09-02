@@ -1,0 +1,25 @@
+{
+    "region": "eu-west-1",
+    "databases": [
+        {
+            "type": "aws_db_instance",
+            "name": "default",
+            "id": "db-XCIBR3UROLZ4QTZXM546IHZL2I",
+            "engine": "mysql",
+            "instance_class": "db.t3.micro",
+            "db_name": "mydb",
+            "arn": "arn:aws:rds:eu-west-1:590183727379:db:mydatabase"
+        }
+    ],
+    "subnet_groups": [
+        {
+            "name": "main",
+            "id": "main-subnet-group",
+            "description": "Managed by Terraform",
+            "subnets": [
+                "subnet-0a2018c0e4578bf97",
+                "subnet-0e285d933a971c571"
+            ]
+        }
+    ]
+}

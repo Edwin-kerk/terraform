@@ -1,0 +1,41 @@
+npm install aws-sdk fs graphviz
+apt install npm
+pip install boto3
+apt install python3-pip
+apt install python3-pip
+apt-get update
+apt install npm
+npm install aws-sdk
+node -v
+npm -v
+npm init -y
+npm install aws-sdk fs graphviz
+npm install @aws-sdk/client-ec2 @aws-sdk/client-rds @aws-sdk/client-s3 @aws-sdk/client-lambda @aws-sdk/client-cost-explorer @aws-sdk/client-sts
+npm install graphviz
+sudo apt-get install graphviz
+npm install @aws-sdk/client-iam
+npm install @aws-sdk/client-iam graphviz
+npm fund
+npm install -g n
+sudo n lts
+sudo apt-get install jq
+npm install aws-sdk
+
+
+------------------------------------------------------------------
+------------------------------------------------------------------
+apt-get update
+apt install python3-pip
+apt install npm
+apt-get install jq
+apt install graphviz
+npm install -g n
+sudo n lts
+pip install boto3
+npm init -y
+npm install aws-sdk fs graphviz
+npm install @aws-sdk/client-ec2 @aws-sdk/client-rds @aws-sdk/client-s3 @aws-sdk/client-lambda @aws-sdk/client-cost-explorer @aws-sdk/client-sts @aws-sdk/client-iam
+npm fund
+node -v
+npm -v
+

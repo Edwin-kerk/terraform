@@ -1,0 +1,61 @@
+{
+  "region": "eu-west-1",
+  "vpcs": [
+    {
+      "name": "main",
+      "id": "vpc-0fdd19061108a077e",
+      "cidr_block": "10.0.0.0/16",
+      "subnets": [
+        {
+          "id": "subnet-010335211f2e50d79",
+          "vpc_id": "vpc-0fdd19061108a077e",
+          "cidr_block": "10.0.1.0/24",
+          "availability_zone": "eu-west-1a",
+          "type": "public",
+          "instances": [
+            {
+              "name": "web_1",
+              "id": "i-025d724dfe4e67b9e",
+              "instance_type": "t2.micro",
+              "ami": "ami-0932dacac40965a65",
+              "subnet_id": "subnet-010335211f2e50d79"
+            }
+          ]
+        },
+        {
+          "id": "subnet-0510de90220758e6f",
+          "vpc_id": "vpc-0fdd19061108a077e",
+          "cidr_block": "10.0.2.0/24",
+          "availability_zone": "eu-west-1b",
+          "type": "public",
+          "instances": [
+            {
+              "name": "web_2",
+              "id": "i-025dd098c463a215b",
+              "instance_type": "t2.micro",
+              "ami": "ami-0932dacac40965a65",
+              "subnet_id": "subnet-0510de90220758e6f"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "elbs": [
+    {
+      "name": "main",
+      "id": "main-elb",
+      "dns_name": "main-elb-564889096.eu-west-1.elb.amazonaws.com",
+      "instances": [
+        {
+          "name": "web_1",
+          "id": "i-025d724dfe4e67b9e"
+        },
+        {
+          "name": "web_2",
+          "id": "i-025dd098c463a215b"
+        }
+      ]
+    }
+  ]
+}

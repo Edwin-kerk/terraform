@@ -1,0 +1,20 @@
+{
+    "region": "eu-west-1",
+    "elbs": [
+        {
+            "name": "main",
+            "id": "main-elb",
+            "dns_name": "main-elb-564889096.eu-west-1.elb.amazonaws.com",
+            "instances": [
+                {
+                    "name": "web_1",
+                    "id": "i-025d724dfe4e67b9e"
+                },
+                {
+                    "name": "web_2",
+                    "id": "i-025dd098c463a215b"
+                }
+            ]
+        }
+    ]
+}

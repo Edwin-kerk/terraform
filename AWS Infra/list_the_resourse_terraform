@@ -1,0 +1,45 @@
+import re
+import os
+
+# Directory containing Terraform configuration files
+terraform_directory = './'  # Change to your directory path if needed
+
+# Regular expressions to match Terraform resources and AWS provider region with alias
+resource_pattern = re.compile(r'resource\s+"([^"]+)"\s+"([^"]+)"\s+{')
+provider_pattern = re.compile(r'provider\s+"aws"\s*{(?:[^}]*alias\s*=\s*"([^"]*)")?\s*region\s*=\s*"([^"]+)"')
+
+# Dictionary to store resources by region
+resources_by_region = {}
+
+# Traverse through all .tf files in the directory
+for root, dirs, files in os.walk(terraform_directory):
+    for file in files:
+        if file.endswith('.tf'):
+            file_path = os.path.join(root, file)
+            print(f"Processing file: {file_path}")  # Debugging line
+            with open(file_path, 'r') as tf_file:
+                content = tf_file.read()
+
+                # Find all provider blocks with region and alias (if any)
+                matches = provider_pattern.findall(content)
+                if not matches:
+                    print(f"No valid provider block found in {file_path}. Skipping file.")  # Debugging line
+                    continue
+
+                for alias, region in matches:
+                    print(f"Found region: {region} with alias: {alias}")  # Debugging line
+                    if region not in resources_by_region:
+                        resources_by_region[region] = set()
+
+                    # Find all resource definitions in this file
+                    resource_matches = resource_pattern.findall(content)
+                    for resource_type, resource_name in resource_matches:
+                        resources_by_region[region].add((resource_type, resource_name))
+
+# Write the resource types and names to separate text files based on regions
+for region, resources in resources_by_region.items():
+    output_file_name = f'resources_{region}.txt'
+    with open(output_file_name, 'w') as output_file:
+        for resource_type, resource_name in sorted(resources):
+            output_file.write(f"Resource Type: {resource_type}, Resource Name: {resource_name}\n")
+    print(f"Resources for region {region} have been extracted to {output_file_name}")

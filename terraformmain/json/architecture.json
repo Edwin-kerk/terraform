@@ -1,0 +1,50 @@
+{
+    "region": "eu-west-1",
+    "vpcs": [
+        {
+            "name": "main",
+            "id": "vpc-0fdd19061108a077e",
+            "cidr_block": "10.0.0.0/16",
+            "subnets": [
+                {
+                    "name": "private_1",
+                    "id": "subnet-0e285d933a971c571",
+                    "cidr_block": "10.0.3.0/24",
+                    "instances": []
+                },
+                {
+                    "name": "private_2",
+                    "id": "subnet-0a2018c0e4578bf97",
+                    "cidr_block": "10.0.4.0/24",
+                    "instances": []
+                },
+                {
+                    "name": "public_1",
+                    "id": "subnet-010335211f2e50d79",
+                    "cidr_block": "10.0.1.0/24",
+                    "instances": [
+                        {
+                            "name": "web_1",
+                            "id": "i-025d724dfe4e67b9e",
+                            "instance_type": "t2.micro",
+                            "ami": "ami-0932dacac40965a65"
+                        }
+                    ]
+                },
+                {
+                    "name": "public_2",
+                    "id": "subnet-0510de90220758e6f",
+                    "cidr_block": "10.0.2.0/24",
+                    "instances": [
+                        {
+                            "name": "web_2",
+                            "id": "i-025dd098c463a215b",
+                            "instance_type": "t2.micro",
+                            "ami": "ami-0932dacac40965a65"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
