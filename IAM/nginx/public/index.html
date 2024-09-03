@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IAM Data Query</title>
+</head>
+<body>
+    <h1>IAM Data Query</h1>
+    <form action="/run-query" method="post">
+        <label for="role-months">Role Creation Months (comma-separated):</label>
+        <input type="text" id="role-months" name="role-months" placeholder="3,6,9" required><br><br>
+
+        <label for="user-months">User Creation Months (comma-separated):</label>
+        <input type="text" id="user-months" name="user-months" placeholder="3,6,9" required><br><br>
+
+        <label for="group-months">Group Creation Months (comma-separated):</label>
+        <input type="text" id="group-months" name="group-months" placeholder="3,6,9" required><br><br>
+
+        <label for="login-months">Login Trends Months (comma-separated):</label>
+        <input type="text" id="login-months" name="login-months" placeholder="1,2,3" required><br><br>
+
+        <label for="nonlogin-months">Non-Login Trends Months (comma-separated):</label>
+        <input type="text" id="nonlogin-months" name="nonlogin-months" placeholder="3,6,9" required><br><br>
+
+        <label for="start-date">Start Date (YYYY-MM-DD):</label>
+        <input type="date" id="start-date" name="start-date"><br><br>
+
+        <label for="end-date">End Date (YYYY-MM-DD):</label>
+        <input type="date" id="end-date" name="end-date"><br><br>
+
+        <button type="submit">Run Query</button>
+    </form>
+</body>
+</html>

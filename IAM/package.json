@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-cloudtrail": "^3.637.0",
+    "@aws-sdk/client-ec2": "^3.641.0",
+    "@aws-sdk/client-iam": "^3.637.0",
+    "@aws-sdk/credential-providers": "^3.637.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}

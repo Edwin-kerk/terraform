@@ -1,0 +1,516 @@
+{
+  "RoleCreationCounts": [
+    {
+      "month": 1,
+      "count": 1,
+      "details": [
+        {
+          "Name": "AWSServiceRoleForGlobalAccelerator",
+          "CreateDate": "2024-08-30T05:07:07.000Z"
+        }
+      ]
+    },
+    {
+      "month": 2,
+      "count": 1,
+      "details": [
+        {
+          "Name": "AWSServiceRoleForGlobalAccelerator",
+          "CreateDate": "2024-08-30T05:07:07.000Z"
+        }
+      ]
+    }
+  ],
+  "UserCreationCounts": [
+    {
+      "month": 2,
+      "count": 3,
+      "details": [
+        {
+          "Name": "Architecture_Compliance",
+          "CreateDate": "2024-08-02T09:39:44.000Z"
+        },
+        {
+          "Name": "Edwin",
+          "CreateDate": "2024-08-07T11:01:14.000Z"
+        },
+        {
+          "Name": "Goutham",
+          "CreateDate": "2024-08-27T05:28:23.000Z"
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "count": 17,
+      "details": [
+        {
+          "Name": "aadav",
+          "CreateDate": "2024-06-07T12:46:21.000Z"
+        },
+        {
+          "Name": "advisor360-xp8v9-aws-ebs-csi-driver-operator-cmztw",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "Name": "advisor360-xp8v9-cloud-credential-operator-iam-ro-wwcfm",
+          "CreateDate": "2024-06-08T11:41:58.000Z"
+        },
+        {
+          "Name": "advisor360-xp8v9-openshift-cloud-network-config-contro-xskqx",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "Name": "advisor360-xp8v9-openshift-image-registry-vtrcw",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "Name": "advisor360-xp8v9-openshift-ingress-5wlk4",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "Name": "advisor360-xp8v9-openshift-machine-api-aws-t66xk",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "Name": "Architecture_Compliance",
+          "CreateDate": "2024-08-02T09:39:44.000Z"
+        },
+        {
+          "Name": "devopslabs-pjnx8-aws-ebs-csi-driver-operator-fkvlr",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "Name": "devopslabs-pjnx8-cloud-credential-operator-iam-ro-6vrx8",
+          "CreateDate": "2024-06-07T13:56:22.000Z"
+        },
+        {
+          "Name": "devopslabs-pjnx8-openshift-cloud-network-config-contro-m7fmp",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "Name": "devopslabs-pjnx8-openshift-image-registry-g6htt",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "Name": "devopslabs-pjnx8-openshift-ingress-98lc8",
+          "CreateDate": "2024-06-07T13:56:11.000Z"
+        },
+        {
+          "Name": "devopslabs-pjnx8-openshift-machine-api-aws-29c8p",
+          "CreateDate": "2024-06-07T13:56:09.000Z"
+        },
+        {
+          "Name": "Edwin",
+          "CreateDate": "2024-08-07T11:01:14.000Z"
+        },
+        {
+          "Name": "Goutham",
+          "CreateDate": "2024-08-27T05:28:23.000Z"
+        },
+        {
+          "Name": "ocp",
+          "CreateDate": "2024-06-08T06:20:57.000Z"
+        }
+      ]
+    }
+  ],
+  "GroupCreationCounts": [
+    {
+      "month": 1,
+      "count": 0,
+      "details": []
+    }
+  ],
+  "LoginTrends": [
+    {
+      "month": 1,
+      "count": 3,
+      "details": [
+        {
+          "UserName": "dinesh",
+          "PasswordLastUsed": "2024-08-22T12:02:12.000Z"
+        },
+        {
+          "UserName": "dol_dev",
+          "PasswordLastUsed": "2024-09-02T12:43:46.000Z"
+        },
+        {
+          "UserName": "Jeevagan",
+          "PasswordLastUsed": "2024-09-03T05:01:14.000Z"
+        }
+      ]
+    }
+  ],
+  "NonLoginTrends": [
+    {
+      "month": 1,
+      "count": 29,
+      "details": [
+        {
+          "UserName": "aadav",
+          "CreateDate": "2024-06-07T12:46:21.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-aws-ebs-csi-driver-operator-cmztw",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-cloud-credential-operator-iam-ro-wwcfm",
+          "CreateDate": "2024-06-08T11:41:58.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-cloud-network-config-contro-xskqx",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-image-registry-vtrcw",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-ingress-5wlk4",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-machine-api-aws-t66xk",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "ajaikrishna",
+          "CreateDate": "2024-01-25T11:35:24.000Z"
+        },
+        {
+          "UserName": "Ananth",
+          "CreateDate": "2021-10-02T03:51:40.000Z"
+        },
+        {
+          "UserName": "Architecture_Compliance",
+          "CreateDate": "2024-08-02T09:39:44.000Z"
+        },
+        {
+          "UserName": "Bhuvaneshwar",
+          "CreateDate": "2021-10-02T04:02:27.000Z"
+        },
+        {
+          "UserName": "BillingCost",
+          "CreateDate": "2024-04-24T11:53:41.000Z"
+        },
+        {
+          "UserName": "Circleci",
+          "CreateDate": "2022-12-28T06:39:12.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-aws-ebs-csi-driver-operator-fkvlr",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-cloud-credential-operator-iam-ro-6vrx8",
+          "CreateDate": "2024-06-07T13:56:22.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-cloud-network-config-contro-m7fmp",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-image-registry-g6htt",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-ingress-98lc8",
+          "CreateDate": "2024-06-07T13:56:11.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-machine-api-aws-29c8p",
+          "CreateDate": "2024-06-07T13:56:09.000Z"
+        },
+        {
+          "UserName": "dol-iac",
+          "CreateDate": "2024-04-03T17:01:21.000Z"
+        },
+        {
+          "UserName": "dol_user",
+          "CreateDate": "2023-08-24T03:42:58.000Z"
+        },
+        {
+          "UserName": "Edwin",
+          "CreateDate": "2024-08-07T11:01:14.000Z"
+        },
+        {
+          "UserName": "Goutham",
+          "CreateDate": "2024-08-27T05:28:23.000Z"
+        },
+        {
+          "UserName": "harikumaran",
+          "CreateDate": "2023-08-19T11:13:50.000Z"
+        },
+        {
+          "UserName": "Lisha",
+          "CreateDate": "2022-02-20T05:40:21.000Z"
+        },
+        {
+          "UserName": "ocp",
+          "CreateDate": "2024-06-08T06:20:57.000Z"
+        },
+        {
+          "UserName": "Prakash",
+          "CreateDate": "2023-05-07T07:01:13.000Z"
+        },
+        {
+          "UserName": "sarath",
+          "CreateDate": "2023-09-06T11:05:05.000Z"
+        },
+        {
+          "UserName": "sujai",
+          "CreateDate": "2021-10-30T07:54:42.000Z"
+        }
+      ]
+    },
+    {
+      "month": 3,
+      "count": 28,
+      "details": [
+        {
+          "UserName": "advisor360-xp8v9-aws-ebs-csi-driver-operator-cmztw",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-cloud-credential-operator-iam-ro-wwcfm",
+          "CreateDate": "2024-06-08T11:41:58.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-cloud-network-config-contro-xskqx",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-image-registry-vtrcw",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-ingress-5wlk4",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-machine-api-aws-t66xk",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "ajaikrishna",
+          "CreateDate": "2024-01-25T11:35:24.000Z"
+        },
+        {
+          "UserName": "Ananth",
+          "CreateDate": "2021-10-02T03:51:40.000Z"
+        },
+        {
+          "UserName": "Architecture_Compliance",
+          "CreateDate": "2024-08-02T09:39:44.000Z"
+        },
+        {
+          "UserName": "Bhuvaneshwar",
+          "CreateDate": "2021-10-02T04:02:27.000Z"
+        },
+        {
+          "UserName": "BillingCost",
+          "CreateDate": "2024-04-24T11:53:41.000Z"
+        },
+        {
+          "UserName": "Circleci",
+          "CreateDate": "2022-12-28T06:39:12.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-aws-ebs-csi-driver-operator-fkvlr",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-cloud-credential-operator-iam-ro-6vrx8",
+          "CreateDate": "2024-06-07T13:56:22.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-cloud-network-config-contro-m7fmp",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-image-registry-g6htt",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-ingress-98lc8",
+          "CreateDate": "2024-06-07T13:56:11.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-machine-api-aws-29c8p",
+          "CreateDate": "2024-06-07T13:56:09.000Z"
+        },
+        {
+          "UserName": "dol-iac",
+          "CreateDate": "2024-04-03T17:01:21.000Z"
+        },
+        {
+          "UserName": "dol_user",
+          "CreateDate": "2023-08-24T03:42:58.000Z"
+        },
+        {
+          "UserName": "Edwin",
+          "CreateDate": "2024-08-07T11:01:14.000Z"
+        },
+        {
+          "UserName": "Goutham",
+          "CreateDate": "2024-08-27T05:28:23.000Z"
+        },
+        {
+          "UserName": "harikumaran",
+          "CreateDate": "2023-08-19T11:13:50.000Z"
+        },
+        {
+          "UserName": "Lisha",
+          "CreateDate": "2022-02-20T05:40:21.000Z"
+        },
+        {
+          "UserName": "ocp",
+          "CreateDate": "2024-06-08T06:20:57.000Z"
+        },
+        {
+          "UserName": "Prakash",
+          "CreateDate": "2023-05-07T07:01:13.000Z"
+        },
+        {
+          "UserName": "sarath",
+          "CreateDate": "2023-09-06T11:05:05.000Z"
+        },
+        {
+          "UserName": "sujai",
+          "CreateDate": "2021-10-30T07:54:42.000Z"
+        }
+      ]
+    },
+    {
+      "month": 6,
+      "count": 27,
+      "details": [
+        {
+          "UserName": "advisor360-xp8v9-aws-ebs-csi-driver-operator-cmztw",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-cloud-credential-operator-iam-ro-wwcfm",
+          "CreateDate": "2024-06-08T11:41:58.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-cloud-network-config-contro-xskqx",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-image-registry-vtrcw",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-ingress-5wlk4",
+          "CreateDate": "2024-06-08T11:41:50.000Z"
+        },
+        {
+          "UserName": "advisor360-xp8v9-openshift-machine-api-aws-t66xk",
+          "CreateDate": "2024-06-08T11:41:49.000Z"
+        },
+        {
+          "UserName": "ajaikrishna",
+          "CreateDate": "2024-01-25T11:35:24.000Z"
+        },
+        {
+          "UserName": "Ananth",
+          "CreateDate": "2021-10-02T03:51:40.000Z"
+        },
+        {
+          "UserName": "Architecture_Compliance",
+          "CreateDate": "2024-08-02T09:39:44.000Z"
+        },
+        {
+          "UserName": "Bhuvaneshwar",
+          "CreateDate": "2021-10-02T04:02:27.000Z"
+        },
+        {
+          "UserName": "BillingCost",
+          "CreateDate": "2024-04-24T11:53:41.000Z"
+        },
+        {
+          "UserName": "Circleci",
+          "CreateDate": "2022-12-28T06:39:12.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-aws-ebs-csi-driver-operator-fkvlr",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-cloud-credential-operator-iam-ro-6vrx8",
+          "CreateDate": "2024-06-07T13:56:22.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-cloud-network-config-contro-m7fmp",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-image-registry-g6htt",
+          "CreateDate": "2024-06-07T13:56:10.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-ingress-98lc8",
+          "CreateDate": "2024-06-07T13:56:11.000Z"
+        },
+        {
+          "UserName": "devopslabs-pjnx8-openshift-machine-api-aws-29c8p",
+          "CreateDate": "2024-06-07T13:56:09.000Z"
+        },
+        {
+          "UserName": "dol-iac",
+          "CreateDate": "2024-04-03T17:01:21.000Z"
+        },
+        {
+          "UserName": "dol_user",
+          "CreateDate": "2023-08-24T03:42:58.000Z"
+        },
+        {
+          "UserName": "Edwin",
+          "CreateDate": "2024-08-07T11:01:14.000Z"
+        },
+        {
+          "UserName": "Goutham",
+          "CreateDate": "2024-08-27T05:28:23.000Z"
+        },
+        {
+          "UserName": "harikumaran",
+          "CreateDate": "2023-08-19T11:13:50.000Z"
+        },
+        {
+          "UserName": "Lisha",
+          "CreateDate": "2022-02-20T05:40:21.000Z"
+        },
+        {
+          "UserName": "ocp",
+          "CreateDate": "2024-06-08T06:20:57.000Z"
+        },
+        {
+          "UserName": "Prakash",
+          "CreateDate": "2023-05-07T07:01:13.000Z"
+        },
+        {
+          "UserName": "sarath",
+          "CreateDate": "2023-09-06T11:05:05.000Z"
+        }
+      ]
+    }
+  ],
+  "PolicyChanges": {
+    "count": 1,
+    "details": [
+      {
+        "EventName": "CreatePolicy",
+        "EventTime": "2024-07-28T06:31:45.000Z",
+        "UserIdentity": "Unknown",
+        "Resources": [
+          "ANPAVMELCXLZH6R333AMR",
+          "arn:aws:iam::369658870514:policy/ec2-instanceconnect-testing",
+          "ec2-instanceconnect-testing"
+        ]
+      }
+    ]
+  }
+}
